@@ -26,9 +26,7 @@ public class Application {
 	public static String connectionString = "jdbc:sqlite:database.sqlite";
 
 	public static final Logger logger = LogManager.getLogger();
-
-	public static String testSecret = "npm_1AAiSUiHSDk1DKIu9IOW0OIWlkPOEWwqTqsJY";
-  
+	
 	public static void main(String[] args) {
 		try {
 			Class.forName("org.sqlite.JDBC");
