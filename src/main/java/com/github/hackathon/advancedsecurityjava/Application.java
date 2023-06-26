@@ -16,8 +16,6 @@ import com.github.hackathon.advancedsecurityjava.Models.Book;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-string testSecret = "scuah_asdeurj12n34n128dchd83h5";
-
 @SpringBootApplication
 public class Application {
 
